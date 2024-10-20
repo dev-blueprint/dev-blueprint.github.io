@@ -19,19 +19,21 @@ theme:
   name: material
 
   palette: 
-    # Dark mode
-    - scheme: default
-      primary: teal
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
-
-    # White mode
     - scheme: slate
       primary: black
-      toggle:
-        icon: material/weather-night
-        name: Switch to light mode
+
+nav:
+  - Manifest: index.md
+  - Fundamentals:
+    - The Blueprint: fundamentals/the-blueprint.md
+    - Python: fundamentals/python.md
+  - Resources:
+    - Get what is yours: resources/index.md
+  - Repositories:
+    - Python: repositories/python.md
+    - TypeScript: repositories/typescript.md
+  - Course:
+    - GitHub Organization: course/organization.md
 
 markdown_extensions:
   - pymdownx.critic
@@ -40,3 +42,4 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - pymdownx.superfences
+  - pymdownx.blocks.details

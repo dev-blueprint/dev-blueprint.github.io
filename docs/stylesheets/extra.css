@@ -1,9 +1,17 @@
 /* Light mode */
 [data-md-color-scheme="default"] {
-  --md-default-bg-color: rgb(198, 236, 219);
+  --md-default-bg-color: rgb(248, 247, 229);
 }
 
 /* Dark mode */
 [data-md-color-scheme="slate"] {
-  --md-default-bg-color: rgb(1, 6, 22);
+  --md-default-bg-color: rgb(2, 10, 37);
+}
+
+.md-header{
+  color: white;
+}
+
+.md-nav__title {
+  display: none;
 }
