@@ -1,1 +1,42 @@
-site_name: My Docs
+site_name: Dev Blueprint
+site_url: https://dev-blueprint.readthedocs.io/en/latest/
+
+extra_css:
+  - stylesheets/extra.css
+
+theme:
+  icon:
+    logo: material/library-outline
+
+  font:
+    text: Work Sans
+    code: Roboto Mono
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+
+  name: material
+
+  palette: 
+    # Dark mode
+    - scheme: default
+      primary: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # White mode
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+markdown_extensions:
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.superfences

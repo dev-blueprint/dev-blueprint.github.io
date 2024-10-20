@@ -1,17 +1,8 @@
-# Welcome to MkDocs
+# Welcome.
+_I am **Lucas Maesaka**, and this is my project "**Dev Blueprint**"_
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+_**Dev Blueprint** is a mission-driven organization committed to providing programmers with the core competencies required for success in the field._ 
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+**_Dev Blueprint is committed to open-source principles and believes that {==knowledge should be shared freely._**
+==}
